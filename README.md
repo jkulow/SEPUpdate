@@ -6,9 +6,12 @@ This powershell script will update the version of Symantec Endpoint Protection p
 DISCLAIMER:
 
 You will need to modify a couple items in this script for it to work for you.
+
 	1) On line 3, you will need to modify the version number if the version you are upgrading to is not 12.1.671.4971
-	2) On line 4, you will need to change adminPassword to match the Symantec administration password you have set up. 		a)         a) If you do not have one set then comment out this line.
-	3) On line 8, you will need to change "<PATH TO THE NEW SEP INSTALLER>" to match the correct path to the update 		         binary.
+
+	2) On line 4, you will need to change adminPassword to match the Symantec administration password you have set up. 	         a) If you do not have one set then comment out this line.
+
+	3) On line 8, you will need to change "<PATH TO THE NEW SEP INSTALLER>" to match the correct path to the update 		   binary.
 
 
 INFO:
